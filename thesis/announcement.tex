@@ -1,0 +1,93 @@
+\documentclass{article}
+
+\input{project-info}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{changepage}
+\usepackage[hidelinks]{hyperref}
+
+\colorlet{grey}{gray!120}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\begin{center}
+
+\includegraphics[width=0.3\textwidth]{media/ci-logo.png}\\
+
+\hfill\break
+
+\LARGE
+\textbf{\color{grey}Computer Science Master Thesis Presentation}\\
+
+\hfill\break
+
+\Large
+{\bf \thesistitle}\\{StatGenerative Model}
+
+\vspace{5mm}
+
+\large
+{\bf \studentname}\\ {Abdul Quadir Owais, Muhammed}
+
+\vspace{5mm}
+
+\large
+\textit{Examination Committee:}\\[1mm]
+{\bf Dr. Micheal Soltys} (Advisor), {\bf
+Dr. Jason Isaacs}\\
+
+\end{center}
+
+\begin{adjustwidth}{1in}{1in}
+\textit{\bf Abstract:}\\
+
+\vspace{2mm}
+
+\normalsize
+\noindent
+This thesis investigates synthetic data generation for structured tabular
+datasets by comparing two contrasting approaches: Conditional Tabular
+GAN (CTGAN) and Adaptive Kernel Density Estimation (AKDE). Using the
+Dry Beans dataset, we evaluate how well each model reproduces real data
+distributions, preserves feature relationships, and supports downstream
+analysis.
+
+A unified, reproducible pipeline is developed to generate and evaluate synthetic data using both statistical and visual methods. Quantitative
+assessment includes KS-statistics, Wasserstein distance, coverage, variance
+ratios, and correlation differences. Qualitative evaluation applies overlays,
+correlation heatmaps, pair plots, and PCA projections.
+\end{adjustwidth}
+
+\hfill\break
+
+\begin{center}
+
+\LARGE
+{\bf 3:00pm, Tuesday, December 2\textsuperscript{nd}, 2025\\
+Online via Zoom}\\
+
+\vspace{4mm}
+
+\large
+\href{https://csuci.zoom.us/j/87621689334}{\textbf{Join via Zoom: \texttt{https://csuci.zoom.us/j/87621689334}}}\\
+
+\vspace{15mm}
+
+\large
+{\bf All students and faculty are invited}\\
+
+\hfill\break
+
+\small
+{\it An Academic Affairs Event}
+
+\end{center}
+
+\end{document}
