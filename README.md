@@ -73,10 +73,9 @@ SynExploration/
 │
 └── thesis/                        # Required documentation
     ├── Thesis_Synthetic_Data.pdf        # Full thesis (PDF)
-    ├── Thesis_Synthetic_Data.tex        # LaTeX source
-    └── announcement/
-        ├── thesis_announcement.tex
-        └── thesis_announcement.pdf
+    └── thesis_announcement.pdf
+
+
 ```
 
 ---
@@ -90,13 +89,9 @@ This repository contains all documentation required by the thesis committee:
 * **`thesis/Thesis_Synthetic_Data.pdf`**
   Complete thesis document, including abstract, theory, experiments, results, and references.
 
-* **`thesis/Thesis_Synthetic_Data.tex`**
-  Full LaTeX source of the thesis.
-
 ### **2. Thesis Announcement**
 
 * **`thesis/announcement/thesis_announcement.pdf`**
-* **`thesis/announcement/thesis_announcement.tex`**
 
 Contains defense time, location, advisor, title, and committee info.
 
@@ -107,7 +102,6 @@ Place it inside:
 
 ```
 thesis/project_description.pdf
-thesis/project_description.tex
 ```
 
 ---
